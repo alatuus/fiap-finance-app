@@ -1,0 +1,21 @@
+:root {
+    --d-blue: #0d6efd;
+    --bg-white: #ffffff;
+    --d-grey: #d3d3d3;
+    --l-grey: #dbdbdb;
+
+
+}
+
+.navbar-brand, .nav-link {
+    color: var(--bg-white);
+}
+
+.nav-link:active {
+    color: var(--d-grey);
+}
+
+.navbar {
+    background-color: var(--d-blue);    
+
+}
