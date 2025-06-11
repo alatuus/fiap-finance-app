@@ -1,9 +1,11 @@
 :root {
-    --d-blue: #0d6efd;
+    --d-blue: #3C68DC;
+    --l-blue: #BED0FF;
+    --bg-blue: #E7EDFF;
     --bg-white: #ffffff;
     --d-grey: #d3d3d3;
     --l-grey: #dbdbdb;
-
+    --dk-grey: #3e3e3e;
 
 }
 
@@ -17,5 +19,37 @@
 
 .navbar {
     background-color: var(--d-blue);    
+
+}
+
+.btn {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: var(--d-blue);
+}
+
+.table {
+    overflow-x: auto;
+    width: 98%;
+    margin: 1%;
+    margin-right: 1%;
+    border: 1px solid;
+    border-color: var(--d-grey);
+    background-color: var(--l-grey);
+
+}
+
+th {
+    background-color: var(--l-blue) !important;
+}
+
+td {
+    background-color: var(--bg-blue) !important;
+}
+
+.edit {
+    color: var(--dk-grey);
+    margin-left: 1%;
 
 }
